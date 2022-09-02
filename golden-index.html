@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+
+    <div class="head">
+
+    <div class="navbarr" id="navbar">
+        <div class="navbar-all" id="navbar-all">
+        <div class="navbar-logo">
+            <a href=""><img id="logo-1" src="https://goldensky.az/img/logo.png" alt="logo"></a>
+            <a href=""><img id="logo-2" src="https://goldensky.az/img/logo2.png" alt=""></a>
+           <div id="hamburger" onclick="hamburger()">
+            <div class="line-1" id="line-1">
+
+            </div>
+            <div class="line-2" id="line-2">
+
+            </div>
+            <div class="line-3" id="line-3">
+
+            </div>
+           </div>
+        </div>
+        <div class="nav">
+            <ul>
+                <li><a id="nav"  onmouseover="nav()" onmouseout="navout()" href="">BAŞ SƏHİFƏ</a></li>
+                <li><a id="nav1" onmouseover="nav()" onmouseout="navout()" href="">ŞİRKƏT</a></li>
+                <li><a id="nav2" onmouseover="nav()" onmouseout="navout()" href="">MICE</a></li>
+                <li><a id="nav3" onmouseover="nav()" onmouseout="navout()" href="">DİGƏR XİDMƏTLƏR</a></li>
+                <li><a id="nav4" onmouseover="nav()" onmouseout="navout()" href="">QONAQLARIMIZ</a></li>
+                <li><a id="nav5" onmouseover="nav()" onmouseout="navout()" href="">ƏLAQƏ</a></li>
+            </ul>
+        </div>
+        <div class="navbar-message">
+            <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    <div class="language"><img src="https://goldensky.az/img/azerbaijan.png" alt="">
+                        <span>AZ</span>
+                    </div>
+                </button>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" id="dropdown-item-1" href="#"><img
+                                src="https://goldensky.az/img/russia.png" alt=""> <span>RU</span></a></li>
+                    <li><a class="dropdown-item" href="#"><img src="https://goldensky.az/img/united-kingdom.png"
+                                alt=""><span>EN</span></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="nav-res">
+        <a href=""><span>AZ</span></a>
+        <a href=""><span>EN</span></a>
+        <a href=""><span>RU</span></a>
+        <ul>
+            <li><a id="nav"  onmouseover="nav()" onmouseout="navout()" href="">BAŞ SƏHİFƏ</a></li>
+            <li><a id="nav1" onmouseover="nav()" onmouseout="navout()" href="">ŞİRKƏT</a></li>
+            <li><a id="nav2" onmouseover="nav()" onmouseout="navout()" href="">MICE</a></li>
+            <li><a id="nav3" onmouseover="nav()" onmouseout="navout()" href="">DİGƏR XİDMƏTLƏR</a></li>
+            <li><a id="nav4" onmouseover="nav()" onmouseout="navout()" href="">QONAQLARIMIZ</a></li>
+            <li><a id="nav5" onmouseover="nav()" onmouseout="navout()" href="">ƏLAQƏ</a></li>
+        </ul>
+        <a href=""><span><i class="fa-brands fa-facebook-f"></i></span></a>
+       <a href=""> <span><i class="fa-brands fa-instagram"></i></span></a>
+       <a href=""> <span><i class="fa-brands fa-youtube"></i></span></a>
+    </div>
+</div>
+
+        <div class="sliders">
+            <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="1000000">
+                        <div class="slide-1">
+                            <div class="slide-1-bg-color">
+                                <div class="slider-1-content">
+                                    <h2>İŞGÜZAR SƏFƏRDƏ HƏR EHTİYACDA</h2>
+                                    <h1>ƏMİNLİKLƏ YANINIZDAYIQ</h1>
+                                </div>
+                                <div class="slider-cards">
+                                    <div class="card-1">
+                                        <i class="fa-solid fa-plane"></i>
+                                        <p>AVIABILET</p>
+                                    </div>
+                                    <div class="card-1">
+                                        <i class="fas fa-car"></i>
+                                        <p>RENT A CAR</p>
+                                    </div>
+                                    <div class="card-1">
+                                        <i class="fas fa-bed"></i>
+                                        <p>YERLƏŞDİRMƏ</p>
+                                    </div>
+                                    <div class="card-1">
+                                        <i class="fas fa-torii-gate"></i>
+                                        <p>CONCIERGE</p>
+                                    </div>
+                                    <div class="card-1">
+                                        <i class="fab fa-cc-visa"></i>
+                                        <p>VISA</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000000">
+                        <div class="slide-2">
+                            <div class="slide-2-bg-color">
+                                <div class="slider-1-content">
+                                    <h2>SİZİ UĞURA HAZIRLAYACAQ</h2>
+                                    <h1>BİZNES SƏYAHƏT HƏLLƏRİ</h1>
+                                </div>
+                                <div class="slider-cards">
+                                    <div class="card-1">
+                                        <i class="fa-solid fa-plane"></i>
+                                        <p>AVIABILET</p>
+                                    </div>
+                                    <div class="card-1">
+                                        <i class="fas fa-car"></i>
+                                        <p>RENT A CAR</p>
+                                    </div>
+                                    <div class="card-1">
+                                        <i class="fas fa-bed"></i>
+                                        <p>YERLƏŞDİRMƏ</p>
+                                    </div>
+                                    <div class="card-1">
+                                        <i class="fas fa-torii-gate"></i>
+                                        <p>CONCIERGE</p>
+                                    </div>
+                                    <div class="card-1">
+                                        <i class="fab fa-cc-visa"></i>
+                                        <p>VISA</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="slide-3">
+                            <div class="slider-1-content">
+                                <h2>SİZİ VƏ QONAQLARINIZI LÜKS SƏVİYYƏDƏ</h2>
+                                <h1>QARŞILAYIR VƏ YOLA SALIRIQ</h1>
+                            </div>
+                            <div class="slider-cards">
+                                <div class="card-1">
+                                    <i class="fa-solid fa-plane"></i>
+                                    <p>AVIABILET</p>
+                                </div>
+                                <div class="card-1">
+                                    <i class="fas fa-car"></i>
+                                    <p>RENT A CAR</p>
+                                </div>
+                                <div class="card-1">
+                                    <i class="fas fa-bed"></i>
+                                    <p>YERLƏŞDİRMƏ</p>
+                                </div>
+                                <div class="card-1">
+                                    <i class="fas fa-torii-gate"></i>
+                                    <p>CONCIERGE</p>
+                                </div>
+                                <div class="card-1">
+                                    <i class="fab fa-cc-visa"></i>
+                                    <p>VISA</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+                    data-bs-slide="prev">
+                    <img src="data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M4 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E"
+                        alt="">
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+                    data-bs-slide="next">
+                    <img src="data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M1.5 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E"
+                        alt="">
+                </button>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="section-1">
+            <div class="section-1-bg">
+                <div class="section-1-cards">
+                    <div class="s1-card">
+                        <h3>1320 USD</h3>
+                        <h4>Maldiv turu</h4>
+                        <p>8 gecə</p>
+                        <a href=""><button>ƏTRAFLI MƏLUMAT</button></a>
+                    </div>
+                    <div class="s2-card">
+                        <h3>1320 USD</h3>
+                        <h4>24/7 xidmət</h4>
+                        <p style="visibility: hidden;">8 gecə</p>
+                        <a href=""><button>ƏTRAFLI MƏLUMAT</button></a>
+                    </div>
+                    <div class="s3-card">
+                        <h3>1320 USD</h3>
+                        <h4>Praqa Turu</h4>
+                        <p>7 gecə</p>
+                        <a href=""><button>ƏTRAFLI MƏLUMAT</button></a>
+                    </div>
+                    <div class="s4-card">
+                        <h3>1320 USD</h3>
+                        <h4>Finladiya Turu</h4>
+                        <p>8 gecə</p>
+                        <a href=""><button>ƏTRAFLI MƏLUMAT</button></a>
+                    </div>
+                    <div class="s5-card">
+                        <h3>1320 USD</h3>
+                        <h4>Qalaaltı Hotel və Spa</h4>
+                        <p>1 gecə</p>
+                        <a href=""><button>ƏTRAFLI MƏLUMAT</button></a>
+                    </div>
+                    <div class="s6-card">
+                        <h3>1320 USD</h3>
+                        <h4>BAKI-MOSKVA TURU</h4>
+                        <p>2 HƏFTƏ</p>
+                        <a href=""><button>ƏTRAFLI MƏLUMAT</button></a>
+                    </div>
+                    <div class="s7-card">
+                        <h3>1320 USD</h3>
+                        <h4>BAKI-İSTANBUL TURU</h4>
+                        <p>4 GÜN 3 GECƏ</p>
+                        <a href=""><button>ƏTRAFLI MƏLUMAT</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section-2-all">
+        <div class="section-2">
+            <div class="s2-cards">
+                <div class="s2-card1">
+                    <h3></h3>
+                    <h2>24/7</h2>
+                    <p>concierge xidmətləri</p>
+                    <h4></h4>
+                </div>
+                <div class="s2-card1">
+                    <h3></h3>
+                    <h2>100%</h2>
+                    <p>müştəri məmnuniyyəti</p>
+                    <h4></h4>
+                </div>
+                <div class="s2-card1">
+                    <h3></h3>
+                    <h2>#1</h2>
+                    <p>peşəkar xidmət</p>
+                    <h4></h4>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section-3-all">
+        <div class="container">
+            <div class="section-3">
+                <div class="section-3-head">
+                    <h2>TƏŞKİL ETDİYİMİZ SƏFƏRLƏR</h2>
+                </div>
+                <div class="section-3-cards">
+                    <div class="s3-card-1">
+                        <div class="swiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="s3-slide-1">
+                                        <a href="">
+                                            <div class="s3-slide-bg">
+                                                <img src="https://goldensky.az/uploads/posts/2019-11/medium/1573131245_7.png"
+                                                    alt="">
+                                            </div>
+                                            <div class="s3-slide-logo">
+                                                <img src="https://goldensky.az/img/insta.png" alt="">
+                                            </div>
+                                            <div class="s3-slide-button">
+                                                <button>ƏTRAFLI MƏLUMAT</button>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="s3-slide-1">
+                                        <a href="">
+                                            <div class="s3-slide-bg">
+                                                <img src="https://goldensky.az/uploads/posts/2019-11/medium/1573131245_7.png"
+                                                    alt="">
+                                            </div>
+                                            <div class="s3-slide-logo">
+                                                <img src="https://goldensky.az/img/insta.png" alt="">
+                                            </div>
+                                            <div class="s3-slide-button">
+                                                <button>ƏTRAFLI MƏLUMAT</button>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="s3-slide-1">
+                                        <a href="">
+                                            <div class="s3-slide-bg">
+                                                <img src="https://goldensky.az/uploads/posts/2019-11/medium/1573131245_7.png"
+                                                    alt="">
+                                            </div>
+                                            <div class="s3-slide-logo">
+                                                <img src="https://goldensky.az/img/insta.png" alt="">
+                                            </div>
+                                            <div class="s3-slide-button">
+                                                <button>ƏTRAFLI MƏLUMAT</button>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="s3-slide-1">
+                                        <a href="">
+                                            <div class="s3-slide-bg">
+                                                <img src="https://goldensky.az/uploads/posts/2019-11/medium/1573131245_7.png"
+                                                    alt="">
+                                            </div>
+                                            <div class="s3-slide-logo">
+                                                <img src="https://goldensky.az/img/insta.png" alt="">
+                                            </div>
+                                            <div class="s3-slide-button">
+                                                <button>ƏTRAFLI MƏLUMAT</button>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="s3-slide-1">
+                                        <a href="">
+                                            <div class="s3-slide-bg">
+                                                <img src="https://goldensky.az/uploads/posts/2019-11/medium/1573131245_7.png"
+                                                    alt="">
+                                            </div>
+                                            <div class="s3-slide-logo">
+                                                <img src="https://goldensky.az/img/insta.png" alt="">
+                                            </div>
+                                            <div class="s3-slide-button">
+                                                <button>ƏTRAFLI MƏLUMAT</button>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="s3-slide-1">
+                                        <a href="">
+                                            <div class="s3-slide-bg">
+                                                <img src="https://goldensky.az/uploads/posts/2019-11/medium/1573131245_7.png"
+                                                    alt="">
+                                            </div>
+                                            <div class="s3-slide-logo">
+                                                <img src="https://goldensky.az/img/insta.png" alt="">
+                                            </div>
+                                            <div class="s3-slide-button">
+                                                <button>ƏTRAFLI MƏLUMAT</button>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="s3-slide-1">
+                                        <a href="">
+                                            <div class="s3-slide-bg">
+                                                <img src="https://goldensky.az/uploads/posts/2019-11/medium/1573131245_7.png"
+                                                    alt="">
+                                            </div>
+                                            <div class="s3-slide-logo">
+                                                <img src="https://goldensky.az/img/insta.png" alt="">
+                                            </div>
+                                            <div class="s3-slide-button">
+                                                <button>ƏTRAFLI MƏLUMAT</button>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="s3-slide-1">
+                                        <a href="">
+                                            <div class="s3-slide-bg">
+                                                <img src="https://goldensky.az/uploads/posts/2019-11/medium/1573131245_7.png"
+                                                    alt="">
+                                            </div>
+                                            <div class="s3-slide-logo">
+                                                <img src="https://goldensky.az/img/insta.png" alt="">
+                                            </div>
+                                            <div class="s3-slide-button">
+                                                <button>ƏTRAFLI MƏLUMAT</button>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="s3-slide-1">
+                                        <a href="">
+                                            <div class="s3-slide-bg">
+                                                <img src="https://goldensky.az/uploads/posts/2019-11/medium/1573131245_7.png"
+                                                    alt="">
+                                            </div>
+                                            <div class="s3-slide-logo">
+                                                <img src="https://goldensky.az/img/insta.png" alt="">
+                                            </div>
+                                            <div class="s3-slide-button">
+                                                <button>ƏTRAFLI MƏLUMAT</button>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="s3-slide-1">
+                                        <a href="">
+                                            <div class="s3-slide-bg">
+                                                <img src="https://goldensky.az/uploads/posts/2019-11/medium/1573131245_7.png"
+                                                    alt="">
+                                            </div>
+                                            <div class="s3-slide-logo">
+                                                <img src="https://goldensky.az/img/insta.png" alt="">
+                                            </div>
+                                            <div class="s3-slide-button">
+                                                <button>ƏTRAFLI MƏLUMAT</button>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="s3-map">
+                        <a href=""><img src="https://goldensky.az/img/xerite.png" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="container">
+           <div class="f-content">
+            <div class="f-1">
+            <div class="f-1-logo">
+                <img src="https://goldensky.az/img/logo.png" alt="">
+                <div class="f-1-icons">
+                    <div class="f-1-icon-1">
+                        <i class="fa-brands fa-instagram"></i>
+                    </div>
+                    <div class="f-1-icon-1">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </div>
+                    <div class="f-1-icon-1">
+                        <i class="fa-brands fa-youtube"></i>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <div class="f-2">
+                <div class="f-2-1">
+                    <div class="f-2-1-1">
+                        <div class="f-2-1-1-1">
+                            <h2>WhatsApp-a yazın:</h2>
+                            <p>99455 955 94 99</p>
+                        </div>
+                        <div class="f-2-1-1-2">
+                            <i class="fa-solid fa-envelope"></i>
+                        </div>
+                    </div>
+                    <div class="f-2-1-1">
+                        <div class="f-2-1-1-1">
+                            <h2>Bizə zəng edin:</h2>
+                            <p>
+                                99412 488 76 11</p>
+                        </div>
+                        <div class="f-2-1-1-2">
+                            <i class="fa-solid fa-phone"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="f-2-2">
+                    <h2>Yeniliklərə abunə olun</h2>
+                    <div class="f-2-input">
+                        <input type="email" placeholder="email adresiniz"><button>ABUNƏ OL</button>
+                    </div>
+                </div>
+            </div>
+           </div>
+           <div class="f-3">
+            <div class="f-3-reserved">
+               <h2> © 2020 "GOLDEN SKY" MICE SERVICES. All rights reserved.</h2>
+               <a href="">Site by OKmedia</a>
+            </div>
+            <div class="f-3-imgs">
+                <img id="img-1" src="https://goldensky.az/img/iata.webp" alt="">
+                <img id="img-2" src="https://goldensky.az/img/armtn.webp" alt="">
+            </div>
+           </div>
+        </div>
+    </div>
+    <div class="contact">
+        <div class="wp">
+            <div class="wp-icon">
+                <a href=""><i class="fa-brands fa-whatsapp"></i><span>WhatsAppa yazın</span></a>
+            </div>
+            <div class="tel-icon">
+                <a href=""><i class="fa-solid fa-phone-flip"></i><span>İndi zəng et</span></a>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+    <script src="app.js"></script>
+    <script src="https://kit.fontawesome.com/969796e352.js" crossorigin="anonymous"></script>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
